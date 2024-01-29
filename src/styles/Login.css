@@ -1,0 +1,29 @@
+.auth__form{
+
+background: black;
+padding: 40px;
+border-radius: 5px;
+}
+.auth__btn{
+    background: #fff !important;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.auth__form p {
+margin-top: 30px;
+
+}
+.auth__form p {
+color: rgba(225, 225, 225, 0.735);
+
+}
+.auth__form input[type="file"]{
+    color: #fff;
+    cursor: pointer;
+}
+.auth__form Link{
+    text-shadow: 1px 1px  3px white;
+}
+.auth__form button{
+    box-shadow: none;
+}

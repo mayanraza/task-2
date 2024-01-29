@@ -1,0 +1,33 @@
+.timer__count {
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 10px 10px 5px rgb(39, 39, 39);
+    background-image: url("https://wallpapercave.com/wp/wp12094546.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(5px); */
+    margin-top: 10px;
+}
+
+.timer__count button {
+    color: #f85606;
+    text-shadow: 1px 1px 1px rgb(6, 6, 6);
+    box-shadow: 4px 4px 4px black;
+}
+
+
+@media only screen and (max-width:9928px) {
+    .clock__wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .clock__data h1 {
+        font-size: 1.1rem !important;
+    }
+
+    .clock__data h5 {
+        font-size: .9rem !important;
+    }
+
+}

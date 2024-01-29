@@ -1,0 +1,33 @@
+.revenue__box,
+.order__box,
+.products__box,
+.users__box {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(252, 187, 66);
+}
+
+
+
+
+
+.revenue__box h5,
+.order__box h5,
+.products__box h5,
+.users__box h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.revenue__box span,
+.order__box span,
+.products__box span,
+.users__box span {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px black;
+    font-weight: 600;
+    font-size: 2rem;
+}
